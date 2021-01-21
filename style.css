@@ -202,8 +202,12 @@ section {
     .res_pc {
         display: none;
     }
+    nav ul {
+
+        margin-top: 25px;
+    }
     nav ul li {
-        /* font-size: 2vw; */
+        font-size: 16px;
     }
 
     .profile2 {
