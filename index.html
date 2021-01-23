@@ -38,7 +38,6 @@
             </ul>
         </nav>
     </header>
-
 <main>
     <!-- ---profile--- -->
     <section class="profile1 " id="profile">
@@ -138,8 +137,8 @@
                         <td>★★★☆☆</td>
                     </tr>
                     <tr>
-                        <td>Git</td>
-                        <td>1ヶ月</td>
+                        <td>Github</td>
+                        <td>2ヶ月</td>
                         <td>★☆☆☆☆</td>
                     </tr>
                 </table>
@@ -177,12 +176,12 @@
 // フェードイン動作
 var scrollAnimationElm = document.querySelectorAll('.sa');
 var scrollAnimationFunc = function() {
-  for(var i = 0; i < scrollAnimationElm.length; i++) {
-    var triggerMargin = 300;
-    if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
-      scrollAnimationElm[i].classList.add('show');
+    for(var i = 0; i < scrollAnimationElm.length; i++) {
+        var triggerMargin = 300;
+        if (window.innerHeight > scrollAnimationElm[i].getBoundingClientRect().top + triggerMargin) {
+        scrollAnimationElm[i].classList.add('show');
+        }
     }
-  }
 }
 window.addEventListener('load', scrollAnimationFunc);
 window.addEventListener('scroll', scrollAnimationFunc);
